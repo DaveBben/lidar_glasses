@@ -293,6 +293,7 @@ void loop()
           PRINT("Distance is ");
           PRINTF(distance,DEC);
           
+          
           char result[8];
           dtostrf(distance,6,2,result);
           
